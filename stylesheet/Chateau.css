@@ -12,6 +12,11 @@
  @media only all and (max-width: 480px){
     body{ background-color: lightskyblue;
           color: navy;
+          font-family: serif Georgia;
+
+    }
+    h1{ background-color: dodgerblue;
+        color: snow;
 
     }
  }
