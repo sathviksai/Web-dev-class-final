@@ -22,15 +22,15 @@ main {
         background-color: lightskyblue;
         color: navy;
         font-family: serif Georgia;
-   
+
         /* This is the header-1 section of the media section that changes the
    color based on the viewport size */
-    h1 {
-        background-color: dodgerblue;
-        color: snow;
-    }
+        header {
+            background-color: dodgerblue;
+            color: snow;
+        }
 
     }
 
-    
+
 }
