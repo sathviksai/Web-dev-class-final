@@ -1,1 +1,10 @@
- 
+ body {
+     background-color: dodgerblue;
+     color: white;
+     font-family: sans-serif arial;
+ }
+
+ main {
+     background-color: white;
+     color: navy;
+ }
