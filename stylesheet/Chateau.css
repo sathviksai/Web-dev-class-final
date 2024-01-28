@@ -8,3 +8,10 @@
      background-color: white;
      color: navy;
  }
+
+ @media only all and (max-width: 480px){
+    body{ background-color: lightskyblue;
+          color: navy;
+
+    }
+ }
