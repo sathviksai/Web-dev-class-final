@@ -1,15 +1,23 @@
+/* This is the body section with elements controlling the color and
+font of the body section */
 body {
     background-color: dodgerblue;
     color: white;
     font-family: sans-serif arial;
 }
 
+/* This is the main section with the background and text color for the
+ main part of the page */
 main {
     background-color: white;
     color: navy;
 }
 
+/* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 480px) {
+
+    /* This is the body section of the media section that changes the
+   color and text based on the viewport size */
     body {
         background-color: lightskyblue;
         color: navy;
@@ -17,6 +25,8 @@ main {
 
     }
 
+    /* This is the header-1 section of the media section that changes the
+   color based on the viewport size */
     h1 {
         background-color: dodgerblue;
         color: snow;
