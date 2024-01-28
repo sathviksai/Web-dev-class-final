@@ -3,7 +3,7 @@ font of the body section */
 body {
     background-color: dodgerblue;
     color: white;
-    font-family: sans-serif arial;
+    font-family: "sans-serif arial";
 }
 
 /* This is the main section with the background and text color for the
@@ -20,8 +20,8 @@ main {
    color and text based on the viewport size */
     body {
         background-color: lightskyblue;
-        color: navy;
-        font-family: serif Georgia;
+        color: navy; 
+        font-family: "serif Georgia";
 
         /* This is the header-1 section of the media section that changes the
    color based on the viewport size */
