@@ -29,6 +29,9 @@ main {
     header {
         background-color: dodgerblue;
         color: snow;
+        background-image: url(LogoSmall.png);
+        min-height: 50px;
+        background-repeat: no-repeat;
     }
 
 }
