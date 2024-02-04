@@ -21,7 +21,7 @@ main {
     /* This is for the change in image size based on oreatation of screen */
     img {
         max-width: 100%;
-        max-height: auto;
+        height: auto;
     }
 }
 
