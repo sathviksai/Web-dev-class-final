@@ -12,10 +12,11 @@ main {
     background-color: white;
     color: navy;
 
+    /* This is for the change in image size based on oreatation of screen */
     .responsive {
         width: 100%;
         height: auto;
-    }
+      }
 }
 
 header {
