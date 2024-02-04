@@ -13,7 +13,7 @@ main {
     color: navy;
 
     /* This is for the change in image size based on oreatation of screen */
-    .responsive {
+    img {
         width: 100%;
         height: auto;
       }
