@@ -14,7 +14,7 @@ main {
 }
 
 /* This is the media section which fixes based on the viewport */
-@media only all and (max-width: 670px) {
+@media only all and (max-width: 620px) {
 
     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
