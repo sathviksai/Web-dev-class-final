@@ -40,4 +40,8 @@ header{  background-position: right;
 }
 
 @media only all and (min-width: 621px) {
+  header{
+    background-image: url(../images/LogoLarge.png);
+    min-height: 100px;
+  }
 }
