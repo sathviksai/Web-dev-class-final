@@ -13,6 +13,9 @@ main {
     color: navy;
 }
 
+header{  background-position: right;
+    background-repeat: no-repeat;}
+
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 620px) {
 
@@ -31,8 +34,10 @@ main {
         color: snow;
         background-image: url(../images/LogoSmall.png);
         min-height: 50px;
-        background-position: right;
-        background-repeat: no-repeat;
+      
     }
 
+}
+
+@media only all and (min-width: 621px) {
 }
