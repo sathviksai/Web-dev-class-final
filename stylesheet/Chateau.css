@@ -11,12 +11,18 @@ body {
 main {
     background-color: white;
     color: navy;
+
+    .responsive {
+        width: 100%;
+        height: auto;
+    }
 }
 
 header {
     background-position: right;
     background-repeat: no-repeat;
 }
+
 
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 620px) {
