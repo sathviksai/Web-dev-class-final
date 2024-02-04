@@ -11,11 +11,14 @@ body {
 main {
     background-color: white;
     color: navy;
+ 
+    /* This is the font weight of the dt list term*/
+    dt{font-weight: bold;}
 
     /* This is for the change in image size based on oreatation of screen */
     img {
         max-width: 500%;
-        height: auto;
+        max-height: auto;
       }
 }
 
