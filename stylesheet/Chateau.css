@@ -12,10 +12,10 @@ main {
     background-color: white;
     color: navy;
 
-    /* This is the font weight of the dt list term*/
-
+    
 }
 
+/* This is the font weight of the dt list term*/
 dt {
     font-weight: bold;
 }
@@ -28,7 +28,7 @@ img {
 }
 
 
-
+/* This is the header section with the attributes for the image */
 header {
     background-position: right;
     background-repeat: no-repeat;
