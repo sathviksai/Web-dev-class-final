@@ -21,6 +21,11 @@ figure{
    }
 }
 
+#header1theme{
+    font-family:'Brush Script MT', cursive;
+    font-size: 4em;
+}
+
 /* This is the main section with the background and text color for the
  main part of the page */
 main {
