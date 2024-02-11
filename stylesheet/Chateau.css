@@ -6,6 +6,10 @@ body {
     font-family: "sans-serif arial";
 }
 
+aside{
+    background-color: aqua;
+}
+
 /* This is the main section with the background and text color for the
  main part of the page */
 main {
