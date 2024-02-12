@@ -54,14 +54,14 @@ figure {
 /* This is the font size of the nav bar and the colors based on the action in the nav bar*/
 nav{
     font-size: 1.5em;
-    a:link{
+    all:link{
         color:#612700
     }
-   a:visited{
+   animation-fill-mode:visited{
     color: black;
     }
 
-    a:hover{
+    all:hover{
     color:#FF9A57;
     }
 
