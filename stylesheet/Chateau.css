@@ -22,7 +22,9 @@ section {
 
 /* This is the styling for the figuers*/
 figure {
- border-radius: 120px;
+    img {
+        border-radius: 120px;
+    }
 
 }
 
@@ -53,17 +55,17 @@ nav {
     font-size: 1.5em;
 }
 
-    a:link {
-        color: #612700;
-    }
+a:link {
+    color: #612700;
+}
 
-    a:visited {
-        color: black;
-    }
+a:visited {
+    color: black;
+}
 
-    a:hover {
-        color: #FF9A57;
-    }
+a:hover {
+    color: #FF9A57;
+}
 
 
 /* This is class for the theme for the div list */
