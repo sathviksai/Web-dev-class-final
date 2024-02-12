@@ -55,7 +55,7 @@ figure {
 nav{
     font-size: 1.5em;
     a:link{
-        color:#612700
+        color:#612700;
     }
    a:visited{
     color: black;
