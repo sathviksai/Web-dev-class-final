@@ -23,12 +23,14 @@ section {
 /* This is the styling for the figuers*/
 figure {
     img {
+        
         border-radius: 120px;
     }
 
     /* This is the styling for the figure captions*/
     figcaption {
-        text-align: right;
+        align-items: center;
+        font-style: bold;
     }
 }
 
@@ -48,6 +50,7 @@ figure {
 
 
 
+/* This is the font size of the nav bar and the colors based on the action in the nav bar*/
 nav{
     font-size: 1.5em;
     a:link{
@@ -73,6 +76,7 @@ nav{
 .divemployeesection{
    background-color: #fbefcc ;
    border-radius: 10px;
+   font-style: bold;
 }
 
 /* This is the main section with the background and text color for the
@@ -105,7 +109,7 @@ header {
 
 
 /* This is the media section which fixes based on the viewport */
-@media only all and (max-width: 620px) {
+@media only all and (max-width: 640px) {
 
     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
@@ -134,7 +138,7 @@ header {
 
 }
 
-@media only all and (min-width: 621px) {
+@media only all and (min-width: 650px) {
 
     /* This is the header section of the media section that changes the
    header logo based on the viewport size */
