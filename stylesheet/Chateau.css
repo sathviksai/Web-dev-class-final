@@ -1,9 +1,9 @@
 /* This is the body section with elements controlling the color and
-font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with it  */
+font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
 
 body {
     background-color: #ffeead;
-    color: #612700;
+    color: #F4FFFD;
     font-family: "sans-serif arial";
 }
 
@@ -110,8 +110,8 @@ header {
     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
     body {
-        background-color: lightskyblue;
-        color: navy;
+        background-color:#ff6f69;
+        color: #F4FFFD;
         font-family: "serif Georgia";
     }
 
@@ -119,7 +119,7 @@ header {
    header logo based on the viewport size */
     header {
         background-color: #ffcc5c;  
-        color: snow;
+        color:#F4FFFD;
         background-image: url(../images/LogoSmall.png);
         min-height: 50px;
 
