@@ -1,7 +1,7 @@
 /* This is the body section with elements controlling the color and
 font of the body section */
 body {
-    background-color: dodgerblue;
+    background-color: #ffeead;
     color: white;
     font-family: "sans-serif arial";
 }
@@ -45,9 +45,7 @@ figure {
   font-style: italic;
 }
 
-.cursivefontstyle{
 
-}
 
 nav{
     font-size: 1.5em;
@@ -119,12 +117,15 @@ header {
     /* This is the header section of the media section that changes the
    header logo based on the viewport size */
     header {
-        background-color: dodgerblue;
+        background-color: #ffcc5c;  
         color: snow;
         background-image: url(../images/LogoSmall.png);
         min-height: 50px;
 
     }
+     body{
+        background-color:#ff6f69;
+     }
 
     figures {
         width: 150px;
@@ -137,6 +138,7 @@ header {
     /* This is the header section of the media section that changes the
    header logo based on the viewport size */
     header {
+        background-color: #ff6f69;
         background-image: url(../images/LogoLarge.png);
         min-height: 100px;
     }
