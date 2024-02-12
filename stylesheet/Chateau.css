@@ -23,14 +23,15 @@ section {
 /* This is the styling for the figuers*/
 figure {
     img {
-        
+
         border-radius: 120px;
     }
 
-   
+
 }
- /* This is the styling for the figure captions*/
- figcaption {
+
+/* This is the styling for the figure captions*/
+figcaption {
     align-items: center;
     font-style: bold;
 }
@@ -44,40 +45,42 @@ figure {
 
 
 /* This is class for larger itlics*/
-.sizeditalics{
-  font-size: 1.2em;
-  font-style: italic;
+.sizeditalics {
+    font-size: 1.2em;
+    font-style: italic;
 }
 
 
 
 /* This is the font size of the nav bar and the colors based on the action in the nav bar*/
-nav{
+nav {
     font-size: 1.5em;
-    a:link{
-        color:#612700;
-    }
-   a:visited{
-    color: black;
+
+    a:link {
+        color: #612700;
     }
 
-    a:hover{
-    color:#FF9A57;
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: #FF9A57;
     }
 
 
 }
 
 /* This is class for the theme for the div list */
-.divlistclass{
+.divlistclass {
     background-color: bisque;
 }
 
 /* This is class for the style of the div employees section with the figures and list */
-.divemployeesection{
-   background-color: #fbefcc ;
-   border-radius: 10px;
-   font-style: bold;
+.divemployeesection {
+    background-color: #fbefcc;
+    border-radius: 10px;
+    font-style: bold;
 }
 
 /* This is the main section with the background and text color for the
@@ -115,7 +118,7 @@ header {
     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
     body {
-        background-color:#ff6f69;
+        background-color: #ff6f69;
         color: #F4FFFD;
         font-family: "serif Georgia";
     }
@@ -123,15 +126,16 @@ header {
     /* This is the header section of the media section that changes the
    header logo based on the viewport size */
     header {
-        background-color: #ffcc5c;  
-        color:#F4FFFD;
+        background-color: #ffcc5c;
+        color: #F4FFFD;
         background-image: url(../images/LogoSmall.png);
         min-height: 50px;
 
     }
-     body{
-        background-color:#ff6f69;
-     }
+
+    body {
+        background-color: #ff6f69;
+    }
 
     figures {
         width: 150px;
