@@ -33,7 +33,7 @@ figure {
 /* This is the styling for the figure captions*/
 figcaption {
     align-items: center;
-    font-style: bold;
+    font-weight: bold;
 }
 
 
