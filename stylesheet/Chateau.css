@@ -21,10 +21,10 @@ section {
 
 
 /* This is the styling for the figuers*/
-figure {
-    img {
+figure img{
+    
         border-radius: 120px;
-    }
+    
 
 }
 
