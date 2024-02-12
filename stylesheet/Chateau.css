@@ -27,11 +27,12 @@ figure {
         border-radius: 120px;
     }
 
-    /* This is the styling for the figure captions*/
-    figcaption {
-        align-items: center;
-        font-style: bold;
-    }
+   
+}
+ /* This is the styling for the figure captions*/
+ figcaption {
+    align-items: center;
+    font-style: bold;
 }
 
 
