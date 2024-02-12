@@ -22,11 +22,7 @@ section {
 
 /* This is the styling for the figuers*/
 figure {
-    img {
-
-        border-radius: 120px;
-    }
-
+ border-radius: 120px;
 
 }
 
@@ -55,6 +51,7 @@ figcaption {
 /* This is the font size of the nav bar and the colors based on the action in the nav bar*/
 nav {
     font-size: 1.5em;
+}
 
     a:link {
         color: #612700;
@@ -68,8 +65,6 @@ nav {
         color: #FF9A57;
     }
 
-
-}
 
 /* This is class for the theme for the div list */
 .divlistclass {
