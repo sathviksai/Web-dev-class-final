@@ -51,6 +51,18 @@ figure {
 
 nav{
     font-size: 1.5em;
+    a:link{
+        color: white;
+    }
+    a:visited{
+    color: black;
+    }
+
+    a:hover{
+    color: yellow;
+    }
+
+
 }
 
 /* This is class for the theme for the div list */
