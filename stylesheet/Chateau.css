@@ -2,7 +2,7 @@
 font of the body section */
 body {
     background-color: #ffeead;
-    color: white;
+    color: #612700;
     font-family: "sans-serif arial";
 }
 
@@ -50,14 +50,14 @@ figure {
 nav{
     font-size: 1.5em;
     a:link{
-        color: white;
+        color:#612700
     }
    a:visited{
     color: black;
     }
 
     a:hover{
-    color: yellow;
+    color:#FF9A57;
     }
 
 
