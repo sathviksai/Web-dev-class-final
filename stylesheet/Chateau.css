@@ -1,5 +1,3 @@
-
-
 /* This is the body section with elements controlling the color and
 font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
 
@@ -24,10 +22,10 @@ section {
 
 
 /* This is the styling for the figuers*/
-figure img{
-    
-        border-radius: 120px;
-    
+figure img {
+
+    border-radius: 120px;
+
 
 }
 
@@ -112,7 +110,7 @@ header {
     background-repeat: no-repeat;
 }
 
-footer{
+footer {
     text-align: center;
 }
 
@@ -138,7 +136,7 @@ footer{
 
     }
 
-    .h2classespage{
+    .h2classespage {
         text-align: center;
     }
 
@@ -152,41 +150,39 @@ footer{
 
 
 
-        /* This is the styling for the elements in the nav-bar */
-  
-        ul.a{
-            list-style-type: none;
-        }
+    /* This is the styling for the elements in the nav-bar */
 
-     
+    ul.a {
+        list-style-type: none;
+    }
 
-          li a{ 
-        
-            display: inline;
-            display: block;
-            margin: 5px;
-            width: 100px;
-            background-color: beige ;
-            text-align: center;
-            }
-    
-    
 
-        /* This is the styling for the elements in the aside tag on the smaller-screen */
-aside {
-    border-style: groove;
-    border-radius: 25px;
-    background-color: aqua;
-    padding: 1px
 
-    
-}
+    li a {
 
-/* This is class for the theme for the div list  on the smaller-screen */
-.divlistclass {
-    background-color: bisque;
-    padding: 1px;
-}
+        display: inline;
+        display: block;
+        margin: 5px;
+        width: 100px;
+        background-color: beige;
+        text-align: center;
+    }
+
+
+
+    /* This is the styling for the elements in the aside tag on the smaller-screen */
+    aside {
+        border-style: groove;
+        border-radius: 25px;
+        background-color: aqua;
+        padding: 1px
+    }
+
+    /* This is class for the theme for the div list  on the smaller-screen */
+    .divlistclass {
+        background-color: bisque;
+        padding: 1px;
+    }
 
 }
 
@@ -201,77 +197,77 @@ aside {
     }
 
     /* This is the style for the navigation bar links*/
-      
-        li a{
-            
-            display: block;
-            margin: 3px;
-            text-align: center;
-           background-color: aqua;
-           width: 90px;
-        }
-    
-    .h2classespage{
+
+    li a {
+
+        display: block;
+        margin: 3px;
+        text-align: center;
+        background-color: aqua;
+        width: 90px;
+    }
+
+    .h2classespage {
         text-align: center;
     }
 
     /* This is the styling for the elements in the aside tag on the biggerscreen */
-aside {
-    border-style: groove;
-    border-radius: 25px;
-    background-color: aqua;
-    padding: 10px
-    
-   
-}
+    aside {
+        border-style: groove;
+        border-radius: 25px;
+        background-color: aqua;
+        padding: 10px
+    }
 
-/* This is class for the theme for the div list  on the biggerscreen */
-.divlistclass {
-    background-color: bisque;
-    padding: 10px;
-    
-}
+    /* This is class for the theme for the div list  on the biggerscreen */
+    .divlistclass {
+        background-color: bisque;
+        padding: 10px;
 
-.row:after{
-    content: "";
-    display: table;
-    clear: both;
-}
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
 
 
-/* This is class for the collum on the top left in classes*/
-.collumntopleft{
-    float: left;
-    height: 15px;
-  width: 50%;
-  margin:5px;
-}
+    /* This is class for the collum on the top left in classes*/
+    .collumntopleft {
+        float: left;
+        height: 15px;
+        width: 50%;
+        margin: 5px;
+    }
 
 
 
-/* This is class for the collum on the top right in classes*/
-.collumntopright{
-    float:right;
-    height: 200px;
-  width: 30%;
-}
+    /* This is class for the collum on the top right in classes*/
+    .collumntopright {
+        float: right;
+        height: 200px;
+        width: 22.5%;
+        position: relative;
+        right: 800px;
+    }
 
 
-/* This is class for the collum on the bottom
+    /* This is class for the collum on the bottom
  left in classes*/
 
-  .collumnbottomleft{
-    float: left;
-    height: 1px;
-  width: 25%;
-}
+    .collumnbottomleft {
+        float: left;
+        height: 1px;
+        width: 25%;
+    }
 
-/* This is class for the collum on the bottom right in classes*/
-.collumnbottomright{
-    float: right;
-    height: fit-content;
-  width: 75%;
-}
+    /* This is class for the collum on the bottom right in classes*/
+    .collumnbottomright {
+        float: right;
+        height: fit-content;
+        width: 75%;
+    }
 
 
     figures {
