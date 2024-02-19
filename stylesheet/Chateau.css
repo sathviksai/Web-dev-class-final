@@ -1,3 +1,5 @@
+
+
 /* This is the body section with elements controlling the color and
 font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
 
@@ -11,6 +13,7 @@ body {
 /* This is the styling for the elements in the aside tag */
 aside {
     background-color: aqua;
+    padding: 5px
 }
 
 
@@ -71,6 +74,7 @@ a:hover {
 /* This is class for the theme for the div list */
 .divlistclass {
     background-color: bisque;
+    padding: 4px;
 }
 
 /* This is class for the style of the div employees section with the figures and list */
@@ -130,6 +134,10 @@ header {
 
     }
 
+    .h2classespage{
+        text-align: center;
+    }
+
     body {
         background-color: #ff6f69;
     }
@@ -137,6 +145,40 @@ header {
     figures {
         width: 150px;
     }
+
+  
+        nav{
+            list-style-type: none;
+        }
+
+     
+
+          li a{ 
+             display: inline;
+            margin: 5px;
+            background-color: beige ;
+            size: 1px;
+            text-align: center;
+        
+        }
+    
+    
+
+        /* This is the styling for the elements in the aside tag on the smaller-screen */
+aside {
+    border-style: groove;
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 1px
+
+    
+}
+
+/* This is class for the theme for the div list  on the smaller-screen */
+.divlistclass {
+    background-color: bisque;
+    padding: 1px;
+}
 
 }
 
@@ -149,6 +191,39 @@ header {
         background-image: url(../images/LogoLarge.png);
         min-height: 100px;
     }
+
+    /* This is the style for the navigation bar links*/
+      
+        li a{
+            
+            display: block;
+            margin: 5px;
+            text-align: center;
+           background-color: aqua;
+           width: 90px;
+        }
+    
+    .h2classespage{
+        text-align: center;
+    }
+
+    /* This is the styling for the elements in the aside tag on the biggerscreen */
+aside {
+    border-style: groove;
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 10px
+    
+   
+}
+
+/* This is class for the theme for the div list  on the biggerscreen */
+.divlistclass {
+    background-color: bisque;
+    padding: 10px;
+    
+}
+
 
     figures {
         width: 80px;
