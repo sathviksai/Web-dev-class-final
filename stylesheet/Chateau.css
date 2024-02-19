@@ -226,6 +226,45 @@ aside {
     
 }
 
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* This is class for the collum on the top left in classes*/
+.collumntopleft{
+    float: left;
+    height: 150px;
+  width: 50%;
+  margin:5px;
+}
+
+/* This is class for the collum on the top right in classes*/
+.collumntopright{
+    float: right;
+    height: 250px;
+  width: 20%;
+}
+
+
+/* This is class for the collum on the bottom
+ left in classes*/
+
+  .collumnbottomleft{
+    float: left;
+    height: 1px;
+  width: 25%;
+}
+
+/* This is class for the collum on the bottom right in classes*/
+.collumnbottomright{
+    float: right;
+    height: fit-content;
+  width: 75%;
+}
+
 
     figures {
         width: 80px;
