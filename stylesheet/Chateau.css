@@ -154,14 +154,15 @@ header {
      
 
           li a{ 
-             
+        
             display: inline;
+            display: block;
+            margin: 5px;
+            width: 100px;
             background-color: beige ;
             size: 1px;
             text-align: center;
-            margin: 5px;
-        
-        }
+            }
     
     
 
@@ -198,7 +199,7 @@ aside {
         li a{
             
             display: block;
-            margin: 5px;
+            margin: 3px;
             text-align: center;
            background-color: aqua;
            width: 90px;
