@@ -147,18 +147,19 @@ header {
     }
 
   
-        nav{
+        ul.a{
             list-style-type: none;
         }
 
      
 
           li a{ 
-             display: inline;
-            margin: 5px;
+             
+            display: inline;
             background-color: beige ;
             size: 1px;
             text-align: center;
+            margin: 5px;
         
         }
     
