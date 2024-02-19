@@ -112,6 +112,10 @@ header {
     background-repeat: no-repeat;
 }
 
+footer{
+    text-align: center;
+}
+
 
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 640px) {
@@ -146,6 +150,9 @@ header {
         width: 150px;
     }
 
+
+
+        /* This is the styling for the elements in the nav-bar */
   
         ul.a{
             list-style-type: none;
@@ -160,7 +167,6 @@ header {
             margin: 5px;
             width: 100px;
             background-color: beige ;
-            size: 1px;
             text-align: center;
             }
     
@@ -236,16 +242,18 @@ aside {
 /* This is class for the collum on the top left in classes*/
 .collumntopleft{
     float: left;
-    height: 150px;
+    height: 15px;
   width: 50%;
   margin:5px;
 }
 
+
+
 /* This is class for the collum on the top right in classes*/
 .collumntopright{
-    float: right;
-    height: 250px;
-  width: 20%;
+    float:right;
+    height: 200px;
+  width: 30%;
 }
 
 
