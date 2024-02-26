@@ -7,6 +7,23 @@ body {
     font-family: "sans-serif arial";
 }
 
+/* This is the styling for the image gallery*/
+.groupedimages{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+
+
+}
+
+.center{
+   text-align: center;
+   list-style: inside;
+}
+
+
 
 /* This is the styling for the elements in the aside tag */
 aside {
@@ -147,8 +164,8 @@ footer {
         background-color: #ff6f69;
     }
 
-    figures {
-        width: 150px;
+    figure {
+        width: 80px;
     }
 
 
@@ -163,12 +180,40 @@ footer {
 
     li a {
 
-        display: inline;
+       
         display: block;
         margin: 5px;
         width: 100px;
         background-color: beige;
         text-align: center;
+    }
+
+    .navbuttonstyle{
+       
+        margin: 5px;
+        width: 100px;
+        height: 30px;
+        background-color: beige;
+        text-align: center;
+
+    }
+
+    .navcontainer{
+     display: flex;
+     flex-direction: row;
+   
+    }
+
+    .navmaincontainer{
+        display: flex;
+        
+       
+       
+    }
+
+    main{
+        height: 100vh;
+        overflow: scroll;
     }
 
 
@@ -186,6 +231,8 @@ footer {
         background-color: bisque;
         padding: 1px;
     }
+
+    
 
 }
 
@@ -208,6 +255,28 @@ footer {
         text-align: center;
         background-color: aqua;
         width: 90px;
+    }
+    
+
+    .navbuttonstyle{
+        
+        margin: 3px;
+        text-align: center;
+        background-color: aqua;
+        width: 90px;
+        
+    }
+
+    .navcontainer{
+        display: flex;
+  flex-direction: column;
+  height: 100vh;
+    }
+
+
+    .navmaincontainer{
+    
+        display: flex;
     }
 
     .h2classespage {
@@ -273,7 +342,7 @@ footer {
     }
 
 
-    figures {
-        width: 80px;
+    figure {
+        width: 150px;
     }
 }
