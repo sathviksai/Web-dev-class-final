@@ -18,6 +18,7 @@ body {
 
 }
 
+  /* This is for text align and list style*/
 .center{
    text-align: center;
    list-style: inside;
@@ -188,6 +189,7 @@ footer {
         text-align: center;
     }
 
+     /* This is the style for the navigation bar buttons*/
     .navbuttonstyle{
        
         margin: 5px;
@@ -198,11 +200,14 @@ footer {
 
     }
 
+      /* This is the style for the navigation bar container*/
+
     .navcontainer{
      display: flex;
      flex-direction: row;
    
     }
+      /* This is the style for the navigation bar and main container*/
 
     .navmaincontainer{
         display: flex;
@@ -257,7 +262,7 @@ footer {
         width: 90px;
     }
     
-
+  /* This is the style for the navigation bar buttons*/
     .navbuttonstyle{
         
         margin: 3px;
@@ -266,14 +271,14 @@ footer {
         width: 90px;
         
     }
-
+  /* This is the style for the navigation bar container*/
     .navcontainer{
         display: flex;
   flex-direction: column;
   height: 100vh;
     }
 
-
+  /* This is the style for the navigation bar and main container*/
     .navmaincontainer{
     
         display: flex;
