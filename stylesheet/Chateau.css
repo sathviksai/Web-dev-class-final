@@ -8,7 +8,7 @@ body {
 }
 
 /* This is the styling for the image gallery*/
-.groupedimages{
+.groupedimages {
 
     display: flex;
     flex-wrap: wrap;
@@ -18,10 +18,10 @@ body {
 
 }
 
-  /* This is for text align and list style*/
-.center{
-   text-align: center;
-   list-style: inside;
+/* This is for text align and list style*/
+.center {
+    text-align: center;
+    list-style: inside;
 }
 
 
@@ -155,7 +155,7 @@ footer {
     }
 
 
-/* This is the alignment of the text for header sections of the classes page */
+    /* This is the alignment of the text for header sections of the classes page */
 
     .h2classespage {
         text-align: center;
@@ -181,7 +181,7 @@ footer {
 
     li a {
 
-       
+
         display: block;
         margin: 5px;
         width: 100px;
@@ -189,36 +189,37 @@ footer {
         text-align: center;
     }
 
-     /* This is the style for the navigation bar buttons*/
-    .navbuttonstyle{
-       
+    /* This is the style for the navigation bar buttons*/
+    .navbuttonstyle {
+
         margin: 5px;
         width: 100px;
         height: 30px;
         background-color: beige;
         text-align: center;
-       
+
 
     }
 
-      /* This is the style for the navigation bar container*/
+    /* This is the style for the navigation bar container*/
 
-    .navcontainer{
-     display: flex;
-     flex-direction: row;
-   
-    }
-      /* This is the style for the navigation bar and main container*/
-
-    .navmaincontainer{
+    .navcontainer {
         display: flex;
-        
-        
-       
-       
+        flex-direction: row;
+
     }
 
-    main{
+    /* This is the style for the navigation bar and main container*/
+
+    .navmaincontainer {
+        display: flex;
+
+
+
+
+    }
+
+    main {
         height: 100vh;
         overflow: scroll;
     }
@@ -239,7 +240,7 @@ footer {
         padding: 1px;
     }
 
-    
+
 
 }
 
@@ -263,26 +264,27 @@ footer {
         background-color: aqua;
         width: 90px;
     }
-    
-  /* This is the style for the navigation bar buttons*/
-    .navbuttonstyle{
-        
+
+    /* This is the style for the navigation bar buttons*/
+    .navbuttonstyle {
+
         margin: 3px;
         text-align: center;
         background-color: aqua;
         width: 90px;
-        
-    }
-  /* This is the style for the navigation bar container*/
-    .navcontainer{
-        display: flex;
-  flex-direction: column;
-  height: 100vh;
+
     }
 
-  /* This is the style for the navigation bar and main container*/
-    .navmaincontainer{
-    
+    /* This is the style for the navigation bar container*/
+    .navcontainer {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+
+    /* This is the style for the navigation bar and main container*/
+    .navmaincontainer {
+
         display: flex;
     }
 
