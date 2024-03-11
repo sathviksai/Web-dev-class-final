@@ -371,7 +371,9 @@ footer {
      /* This is class for the grid-title on the graduates page*/
 
     .gridTitle{
-       grid-area:  1/2/1/4;
+        grid-row: 1;
+        grid-column: 3;
+        text-align: end;
     }
 
      /* Below are the various classes for the images for the grids this includes the sqaure,long and wide images*/
