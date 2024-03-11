@@ -193,8 +193,8 @@ footer {
     .navbuttonstyle {
 
         margin: 5px;
-        width: 100px;
-        height: 30px;
+        width: 115px;
+        height: 60px;
         background-color: beige;
         text-align: center;
 
@@ -241,6 +241,9 @@ footer {
     }
 
 
+   
+
+
 
 }
 
@@ -271,7 +274,7 @@ footer {
         margin: 3px;
         text-align: center;
         background-color: aqua;
-        width: 90px;
+        width: 100px;
 
     }
 
@@ -354,4 +357,60 @@ footer {
     figure {
         width: 150px;
     }
+
+
+     /* This is class for the grid-container on the graduates page*/
+    .grid-Container{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+        gap: 10px;
+
+
+    }
+
+     /* This is class for the grid-title on the graduates page*/
+
+    .gridTitle{
+       grid-area:  1/2/1/4;
+    }
+
+     /* Below are the various classes for the images for the grids this includes the sqaure,long and wide images*/
+    
+    .wideImg{
+        grid-area: 2/1/2/7;
+    }
+
+
+    .longImg{
+        grid-area: 3/1/4/3;
+    }
+
+   .regImg1{
+    grid-area: 3/3/4/7;
+
+   }
+
+   .regImg2{
+ 
+    grid-area: 4/3/5/7;
+    
+   }
+
+   .regImg3{
+    grid-area: 4/1/5/3;
+    
+   }
+
+   .regImg4{
+
+    grid-area: 5/3/6/7;
+
+   }
+
+
+   .regImg5{
+
+    grid-area: 5/1/6/3;
+
+   }
 }
