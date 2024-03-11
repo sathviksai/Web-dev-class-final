@@ -136,116 +136,114 @@ footer {
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 640px) {
 
-    /* This is the body section of the media section that changes the
+     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
-    body {
-        background-color: #ff6f69;
-        color: #F4FFFD;
-        font-family: "serif Georgia";
-    }
+   body {
+    background-color: #ff6f69;
+    color: #F4FFFD;
+    font-family: "serif Georgia";
+}
 
-    /* This is the header section of the media section that changes the
-   header logo based on the viewport size */
-    header {
-        background-color: #ffcc5c;
-        color: #F4FFFD;
-        background-image: url(../images/LogoSmall.png);
-        min-height: 50px;
+/* This is the header section of the media section that changes the
+header logo based on the viewport size */
+header {
+    background-color: #ffcc5c;
+    color: #F4FFFD;
+    background-image: url(../images/LogoSmall.png);
+    min-height: 50px;
 
-    }
-
-
-    /* This is the alignment of the text for header sections of the classes page */
-
-    .h2classespage {
-        text-align: center;
-    }
-
-    body {
-        background-color: #ff6f69;
-    }
-
-    figure {
-        width: 80px;
-    }
+}
 
 
+/* This is the alignment of the text for header sections of the classes page */
 
-    /* This is the styling for the elements in the nav-bar */
+.h2classespage {
+    text-align: center;
+}
 
-    ul.a {
-        list-style-type: none;
-    }
+body {
+    background-color: #ff6f69;
+}
+
+figure {
+    width: 80px;
+}
 
 
 
-    li a {
+/* This is the styling for the elements in the nav-bar */
 
-
-        display: block;
-        margin: 5px;
-        width: 100px;
-        background-color: beige;
-        text-align: center;
-    }
-
-    /* This is the style for the navigation bar buttons*/
-    .navbuttonstyle {
-
-        margin: 5px;
-        width: 115px;
-        height: 60px;
-        background-color: beige;
-        text-align: center;
-
-
-    }
-
-    /* This is the style for the navigation bar container*/
-
-    .navcontainer {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    /* This is the style for the navigation bar and main container*/
-
-    .navmaincontainer {
-        display: flex;
+ul.a {
+    list-style-type: none;
+}
 
 
 
-
-    }
-
-    main {
-        height: 100vh;
-        overflow: scroll;
-    }
+li a {
 
 
+    display: block;
+    margin: 5px;
+    width: 100px;
+    background-color: beige;
+    text-align: center;
+}
 
-    /* This is the styling for the elements in the aside tag on the smaller-screen */
-    aside {
-        border-style: groove;
-        border-radius: 25px;
-        background-color: aqua;
-        padding: 1px
-    }
+/* This is the style for the navigation bar buttons*/
+.navbuttonstyle {
 
-    /* This is class for the theme for the div list  on the smaller-screen */
-    .divlistclass {
-        background-color: bisque;
-        padding: 1px;
-    }
+    margin: 5px;
+    width: 100px;
+    height: 55px;
+    background-color: beige;
+    text-align: center;
 
 
-   
+}
+
+/* This is the style for the navigation bar container*/
+
+.navcontainer {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* This is the style for the navigation bar and main container*/
+
+.navmaincontainer {
+    display: flex;
+
 
 
 
 }
+
+main {
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+
+/* This is the styling for the elements in the aside tag on the smaller-screen */
+aside {
+    border-style: groove;
+    border-radius: 25px;
+    background-color: aqua;
+    padding: 1px
+}
+
+/* This is class for the theme for the div list  on the smaller-screen */
+.divlistclass {
+    background-color: bisque;
+    padding: 1px;
+}
+
+
+
+}
+
 
 @media only all and (min-width: 650px) {
 
