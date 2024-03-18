@@ -1,0 +1,27 @@
+@charset "UTF-8";
+.dogImg{
+    width: 50px;
+}
+
+/* This is the body section with elements controlling the color and
+font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
+
+body {
+    background-color: #ffeead;
+    color: #F4FFFD;
+    font-family: "sans-serif arial";
+}
+ button{margin-left: 5px;}
+
+ /* This is the main section with the background and text color for the
+ main part of the page */
+main {
+    background-color: white;
+    color: navy;
+
+
+}
+
+header{
+    
+}
