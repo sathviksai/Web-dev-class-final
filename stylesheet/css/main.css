@@ -13,15 +13,9 @@ body {
 }
  button{margin-left: 5px;}
 
- /* This is the main section with the background and text color for the
- main part of the page */
-main {
-    background-color: white;
-    color: navy;
 
 
-}
-
+ /* This is the backdrop class for whats under the nav-bar */
 .backdrop{
 background-color:  #ff6f69;
  background-image: url(../images/LogoLarge.png);
