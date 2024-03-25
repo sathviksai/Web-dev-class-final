@@ -36,13 +36,42 @@
         <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
         <main>
             <!-- This is a header labeling the contact page -->
-            <h1>contact page</h1>
+            <h1>Let us know how to contact you with the answers you need</h1>
             <!-- This is the image of the dog-->
             <img src="../images/DogOnPhone" alt="A dog to contact">
+            <p>This is how you can reach us with your questions. Feel free to drop your email and questions below.
+                Feel free to call our number below if you have any urgent questions. <br>We are avalible from 9am-5pm
+                Monday
+                thru Friday, closed on saturday and Sunday. We look forward to hearing from you!</p>
+
+            <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+                <div><label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Jhon Doe"
+                        required></div>
+    </div>
+    <div><label for="email">Email:</label><input type="email" id="email" name="email" placeholder="abc@abc.com"
+            required>
+    </div>
+    <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel" placeholder="123-456-7890"
+            required>
+    </div>
+
+    <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact" name="Preferedcontact">
+            <option value="Email me">Email me</option>
+            <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
+            <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
+            
+            
+        </select>
+    </div>
+
+
+    <div><input type="submit"></div>
+
+    </form>
 
 
 
-        </main>
+    </main>
     </div>
     <!-- This is the footer section -->
     <footer>
