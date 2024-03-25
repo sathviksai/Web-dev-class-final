@@ -33,7 +33,7 @@
 
 
         </nav>
-        <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
+        <!-- This is the main section of the webpage that hold main poritons of the webpage -->
         <main>
             <!-- This is a header labeling the contact page -->
             <h1>Let us know how to contact you with the answers you need</h1>
@@ -43,36 +43,41 @@
                 Feel free to call our number below if you have any urgent questions. <br>We are avalible from 9am-5pm
                 Monday
                 thru Friday, closed on saturday and Sunday. We look forward to hearing from you!</p>
-<div class="container">
-            <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
-                <div>
-                <div><label for="name">Name:</label><input type="text" id="name" name="name" placeholder="Jhon Doe"
-                        required></div>
+         
+              <!-- This is the div container for the form -->
+                <div class="container">
+                 <!-- This is the form for the contact page -->
+                <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+                    <div>
+                        <div><label for="name">Name:</label><input type="text" id="name" name="name"
+                                placeholder="Jhon Doe" required></div>
+                    </div>
+                    <div><label for="email">Email:</label><input type="email" id="email" name="email"
+                            placeholder="abc@abc.com" required>
+                    </div>
+                    <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel"
+                            placeholder="123-456-7890" required>
+                    </div>
+
+                    <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact"
+                            name="Preferedcontact">
+                            <option value="Email me">Email me</option>
+                            <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
+                            <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
+
+
+                        </select>
+                    </div>
+
+                    <div><label for="textarea">Question or Concern?:</label><textarea id="textarea"
+                            name="textarea"></textarea>
+                    </div>
+
+
+                    <div><input type="submit"></div>
+            </div>
+            </form>
     </div>
-    <div><label for="email">Email:</label><input type="email" id="email" name="email" placeholder="abc@abc.com"
-            required>
-    </div>
-    <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel" placeholder="123-456-7890"
-            required>
-    </div>
-
-    <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact" name="Preferedcontact">
-            <option value="Email me">Email me</option>
-            <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
-            <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
-
-
-        </select>
-    </div>
-
-    <div><label for="textarea">Question or Concern?:</label><textarea id="textarea" name="textarea"></textarea>
-    </div>
-
-
-    <div><input type="submit"></div>
-</div>
-    </form>
-</div>
 
 
 
@@ -83,6 +88,8 @@
         <p>
             Copyright &copy; 2023 Chateau Chien <br>
             <a href="mailto:example@google.com">example@google.com</a>
+        <p id="date" class="footerDate"></p>
+        <script> const d = new Date(); document.getElementById("date").innerHTML = d; </script>
         </p>
     </footer>
 

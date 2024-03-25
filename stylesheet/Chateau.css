@@ -132,6 +132,8 @@ footer {
     text-align: center;
 }
 
+
+/* This is the css for the form feilds */
 input[type=text],input[type=email],input[type=tel],select,textarea{
     width: 1050px;
     padding: 12px 20px;
@@ -142,6 +144,8 @@ input[type=text],input[type=email],input[type=tel],select,textarea{
     box-sizing: border-box;
 }
 
+
+/* This is the css for the form submit button */
 input[type=submit] {
     width: 100%;
     background-color: #ffcc5c;
@@ -152,10 +156,16 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
   }
+
+
+/* This is the css for the form submit button when hoverd on */
   
   input[type=submit]:hover {
     background-color: green;
   }
+
+
+/* This is the css for the form feilds container which holds the feilds */
   
   div.container {
     border-radius: 5px;
@@ -163,6 +173,10 @@ input[type=submit] {
     padding: 20px;
     
   }
+
+
+/* This is the css for the for the footer date color */
+  .footerDate{color: black;}
 
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 640px) {
