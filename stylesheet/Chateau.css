@@ -134,7 +134,11 @@ footer {
 
 
 /* This is the css for the form feilds */
-input[type=text],input[type=email],input[type=tel],select,textarea{
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
     width: 1050px;
     padding: 12px 20px;
     margin: 8px 0;
@@ -155,136 +159,152 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
+}
 
 
 /* This is the css for the form submit button when hoverd on */
-  
-  input[type=submit]:hover {
+
+input[type=submit]:hover {
     background-color: green;
-  }
+}
 
 
 /* This is the css for the form feilds container which holds the feilds */
-  
-  div.container {
+
+div.container {
     border-radius: 5px;
     background-color: #ff6f69;
     padding: 20px;
-    
-  }
+
+}
 
 
 /* This is the css for the for the footer date color */
-  .footerDate{color: black;}
+.footerDate {
+    color: black;
+}
+
+.h2ForVideo {
+    text-align: center;
+}
 
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 640px) {
 
-     /* This is the body section of the media section that changes the
+    /* This is the body section of the media section that changes the
    color and text based on the viewport size */
-   body {
-    background-color: #ff6f69;
-    color: #F4FFFD;
-    font-family: "serif Georgia";
-}
+    body {
+        background-color: #ff6f69;
+        color: #F4FFFD;
+        font-family: "serif Georgia";
+    }
 
-/* This is the header section of the media section that changes the
+    /* This is the header section of the media section that changes the
 header logo based on the viewport size */
-header {
-    background-color: #ffcc5c;
-    color: #F4FFFD;
-    background-image: url(../images/LogoSmall.png);
-    min-height: 50px;
+    header {
+        background-color: #ffcc5c;
+        color: #F4FFFD;
+        background-image: url(../images/LogoSmall.png);
+        min-height: 50px;
 
-}
-
-
-/* This is the alignment of the text for header sections of the classes page */
-
-.h2classespage {
-    text-align: center;
-}
-
-body {
-    background-color: #ff6f69;
-}
-
-figure {
-    width: 80px;
-}
+    }
 
 
+    /* This is the alignment of the text for header sections of the classes page */
 
-/* This is the styling for the elements in the nav-bar */
+    .h2classespage {
+        text-align: center;
+    }
 
-ul.a {
-    list-style-type: none;
-}
+    body {
+        background-color: #ff6f69;
+    }
+
+    figure {
+        width: 80px;
+    }
 
 
 
-li a {
+    /* This is the styling for the elements in the nav-bar */
 
-
-    display: block;
-    margin: 5px;
-    width: 100px;
-    background-color: beige;
-    text-align: center;
-}
-
-/* This is the style for the navigation bar buttons*/
-.navbuttonstyle {
-
-    margin: 5px;
-    width: 100px;
-    height: 55px;
-    background-color: beige;
-    text-align: center;
-
-
-}
-
-/* This is the style for the navigation bar container*/
-
-.navcontainer {
-    display: flex;
-    flex-direction: row;
-
-}
-
-/* This is the style for the navigation bar and main container*/
-
-.navmaincontainer {
-    display: flex;
+    ul.a {
+        list-style-type: none;
+    }
 
 
 
-
-}
-
-main {
-    height: 100vh;
-    overflow: scroll;
-}
+    li a {
 
 
+        display: block;
+        margin: 5px;
+        width: 100px;
+        background-color: beige;
+        text-align: center;
+    }
 
-/* This is the styling for the elements in the aside tag on the smaller-screen */
-aside {
-    border-style: groove;
-    border-radius: 25px;
-    background-color: aqua;
-    padding: 1px
-}
+    /* This is the style for the navigation bar buttons*/
+    .navbuttonstyle {
 
-/* This is class for the theme for the div list  on the smaller-screen */
-.divlistclass {
-    background-color: bisque;
-    padding: 1px;
-}
+        margin: 5px;
+        width: 100px;
+        height: 55px;
+        background-color: beige;
+        text-align: center;
 
+
+    }
+
+    /* This is the style for the navigation bar container*/
+
+    .navcontainer {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    /* This is the style for the navigation bar and main container*/
+
+    .navmaincontainer {
+        display: flex;
+
+
+
+
+    }
+
+    main {
+        height: 100vh;
+        overflow: scroll;
+    }
+
+
+
+    /* This is the styling for the elements in the aside tag on the smaller-screen */
+    aside {
+        border-style: groove;
+        border-radius: 25px;
+        background-color: aqua;
+        padding: 1px
+    }
+
+    /* This is class for the theme for the div list  on the smaller-screen */
+    .divlistclass {
+        background-color: bisque;
+        padding: 1px;
+    }
+
+    /* This is class for the for dog high-five video */
+    iframe {
+        margin-left: 130px;
+        border: none;
+    }
+
+    /* This is class for the credit caption of the dog high-five video */
+    .CreditPostion {
+        margin-left: 150px;
+    }
 
 
 }
@@ -402,8 +422,8 @@ aside {
     }
 
 
-     /* This is class for the grid-container on the graduates page*/
-    .grid-Container{
+    /* This is class for the grid-container on the graduates page*/
+    .grid-Container {
         display: grid;
         grid-template-columns: auto auto auto auto auto auto;
         gap: 10px;
@@ -411,51 +431,67 @@ aside {
 
     }
 
-     /* This is class for the grid-title on the graduates page*/
+    /* This is class for the grid-title on the graduates page*/
 
-    .gridTitle{
+    .gridTitle {
         grid-row: 1;
         grid-column: 3;
         text-align: end;
     }
 
-     /* Below are the various classes for the images for the grids this includes the sqaure,long and wide images*/
-    
-    .wideImg{
+    /* Below are the various classes for the images for the grids this includes the sqaure,long and wide images*/
+
+    .wideImg {
         grid-area: 2/1/2/7;
     }
 
 
-    .longImg{
+    .longImg {
         grid-area: 3/1/4/3;
     }
 
-   .regImg1{
-    grid-area: 3/3/4/7;
+    .regImg1 {
+        grid-area: 3/3/4/7;
 
-   }
+    }
 
-   .regImg2{
- 
-    grid-area: 4/3/5/7;
-    
-   }
+    .regImg2 {
 
-   .regImg3{
-    grid-area: 4/1/5/3;
-    
-   }
+        grid-area: 4/3/5/7;
 
-   .regImg4{
+    }
 
-    grid-area: 5/3/6/7;
+    .regImg3 {
+        grid-area: 4/1/5/3;
 
-   }
+    }
+
+    .regImg4 {
+
+        grid-area: 5/3/6/7;
+
+    }
 
 
-   .regImg5{
+    .regImg5 {
 
-    grid-area: 5/1/6/3;
+        grid-area: 5/1/6/3;
 
-   }
+    }
+
+    /* This is class for the for dog high-five video */
+    iframe {
+        margin-left: 250px;
+        border: none;
+        width: 600px;
+        height: 300px;
+    }
+
+    /* This is class for the credit caption of the dog high-five video */
+    .CreditPostion {
+        margin-left: 420px;
+    }
+
+
+
 }
