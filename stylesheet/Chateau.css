@@ -393,10 +393,11 @@ header logo based on the viewport size */
     /* This is class for the collum on the top right in classes*/
     .collumntopright {
         float: right;
-        height: 200px;
+        height: 205px;
         width: 22.5%;
         position: relative;
-        right: 800px;
+        right: 750px;
+
     }
 
 
