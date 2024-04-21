@@ -1,6 +1,8 @@
 /* This is the body section with elements controlling the color and
 font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
+.logo{ width: 100px; height: 90px;
 
+}
 body {
     background-color: #ffeead;
     color: #F4FFFD;
@@ -55,8 +57,8 @@ figcaption {
 
 
 /* This is the id theme for the header1 tag */
-#header1theme {
-    font-family: 'Brush Script MT', cursive;
+#Navbartheme{
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 4em;
 }
 
