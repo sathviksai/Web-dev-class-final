@@ -445,7 +445,7 @@ header logo based on the viewport size */
 }
 
 
-@media only all and (min-width: 650px) {
+@media only all and (min-width: 758px) {
 
     .navbarcol{background-color: #ff6f69 !important;}
     main{background-color: #69d2ff !important;}
