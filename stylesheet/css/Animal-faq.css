@@ -1,5 +1,7 @@
-
-    .faqSlider  {
+h1{text-align: center;}
+   
+/* This is the css for the faq slider */
+   .faqSlider  {
         background-color: #eee;
         color: #444;
         cursor: pointer;
@@ -11,11 +13,12 @@
         font-size: 15px;
         transition: 0.4s;
       }
-      
+      /* This is the css for the faq slider when hovered and active*/
       .active, .faqSlider:hover {
         background-color: #ccc;
       }
       
+       /* This is the css for the faq slider after its clicked*/
       .faqSlider:after {
         content: '\002B';
         color: #100;
@@ -29,6 +32,7 @@
         
       }
       
+       /* This is the css for the faq panel */
       .panel {
         padding:0 18px;
         background-color: white;
@@ -40,3 +44,50 @@
       a.underline{
        text-decoration: underline;
       }
+
+
+/* This is the css for the form feilds */
+input[type=text],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    width: 1050px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ffcc5c;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+/* This is the css for the form submit button */
+input[type=submit] {
+    width: 95%;
+    background-color: #ffcc5c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+/* This is the css for the form submit button when hoverd on */
+
+input[type=submit]:hover {
+    background-color: green;
+}
+
+
+/* This is the css for the form feilds container which holds the feilds */
+
+div.container {
+    border-radius: 5px;
+    background-color: #ff6f69;
+    padding: 20px;
+
+}
+
