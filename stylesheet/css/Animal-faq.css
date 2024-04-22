@@ -2,6 +2,13 @@ h1 {
   text-align: center;
 }
 
+
+
+main {
+  height: 100%;
+  overflow-x: hidden;
+}
+
 /* This is the css for the faq slider */
 .faqSlider {
   background-color: #eee;
@@ -165,8 +172,8 @@ div.formcontainer {
 }
 
 @media only all and (min-width: 758px) {
+ 
 
-  
   /* This is the css for the form feilds */
   input[type=text],
   input[type=email],
@@ -219,4 +226,5 @@ div.formcontainer {
     padding: 20px;
 
   }
+  
 }
