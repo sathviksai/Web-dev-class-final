@@ -3,85 +3,207 @@
 <!-- This is the head which contains the title -->
 
 <head>
-    <!-- This is the link to the css file -->
-    <link href="../stylesheet/css/bootstrap-4.4.1.css" rel="stylesheet">
-    <link rel="stylesheet" href="../stylesheet/main.css">
-    <!-- This is the title that displays on the website banner -->
-    <title>Chateau Chien</title>
-    <!-- This is the charset-->
-    <meta charset="UTF-8">
-    <!-- This is the meta tag for the viewport-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- This is the link to the javascript file -->
-    <script src="../Web-dev-class/homeScreen.js"></script>
+  <!-- This is the links to the css file -->
+  <link href="../stylesheet/css/bootstrap-4.4.1.css" rel="stylesheet">
+  <link rel="stylesheet" href="../stylesheet/main.css">
+  <link rel="stylesheet" href="../stylesheet/css/Animal-faq.css">
+  <!-- This is the title that displays on the website banner -->
+  <title>Chateau Chien</title>
+  <!-- This is the charset-->
+  <meta charset="UTF-8">
+  <!-- This is the meta tag for the viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- This is the link to the javascript file -->
+  <script src="/Pages/js/SpaceScreen copy.js"></script>
+
 </head>
 
 <!-- This is the body which all the contents of the webpage-->
 
 <body onload="welcomeMessage()">
-  
 
-    <!-- This is the contianer which holds the nav bar and main section together -->
-   
-        <!-- This is the nav bar which holds the page options -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Navbartheme">
-            <a class="navbar-brand" href="#"> <img src="../images/World of questions.png" alt="World-of-questions-logo" class="logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"> </li>
-                <a  href="../index.html"> <button type="button" class="btn btn-primary" style="margin: auto;">Home</button></a>
-              <a  href="Animal.html"> <button type="button" class="btn btn-primary" style="margin-left: 5px;">Animal Faq</button></a>
-              <a  href="Pages/ourteam.html"> <button type="button" class="btn btn-primary"style="margin-left: 8px;">Space Faq</button></a>
-                <a  href="Pages/contact.html"> <button type="button" class="btn btn-primary" style="margin-left: 10px;">Submit FAQ page</button></a>
-                  <a  href="Pages/OurGraduates.html"> <button type="button" class="btn btn-primary"  style="margin-left: 12px;" >Contact Us</button></a>
-              </ul>
-            
-            </div>
-          </nav>
-        <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
-        <main>
-            <!-- This is the image of the main page dog-->
-            <iframe src="Media/Intro.mp4"></iframe>
-            <div class="CreditPostion">
-                Video templates from <a
-                    href="https://www.canva.com">Canva</a>
-            </div>
-            <div class="textalign-center">
-            <!-- This is a header -->
-            <h1>Welcome to World of Questions!</h1>
-            <!-- This is paragraph 1 -->
-            <p>
-            </p>
-            <!-- This is paragraph 2 -->
-            <p> Here you can look for commonly asked questions! We have and animals and space page! <br>If you would like to sugeest more please submit in the FAQ submit page! Enjoy!
-            </p>
-            <!-- This is a header for the address-->
-           
- </div>
-        </main>
-   
-    <!-- This is the footer section -->
-    <footer>
-        <p>
-            Copyright &copy; 2024 World Of Questions <br>
-            <a href="mailto: info@woq.com">info@woq.com</a>
-            <p id="date" class="footerDate"></p>
-            <script> const d = new Date(); document.getElementById("date").innerHTML = d; </script>
-        </p>
-    </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-        <script src="../Pages/js/jquery-3.4.1.min.js"></script> 
-        <!-- Include all compiled plugins (below), or include individual files as needed --> 
-        <script src="../Pages/js/popper.min.js"></script> 
-        <script src="../Pages/js/bootstrap-4.4.1.js"></script>
+
+  <!-- This is the contianer which holds the nav bar and main section together -->
+
+  <!-- This is the nav bar which holds the page options -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Navbartheme">
+    <a class="navbar-brand" href="#"> <img src="../images/World of questions.png" alt="World-of-questions-logo"
+        class="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active"> </li>
+        <a href="../index.html"> <button type="button" class="btn btn-primary" style="margin: auto;">Home</button></a>
+        <a href="Animal.html"> <button type="button" class="btn btn-primary" style="margin-left: 5px;">Animal
+            Faq</button></a>
+        <a href="Space.html"> <button type="button" class="btn btn-primary" style="margin-left: 8px;">Space
+            Faq</button></a>
+        <a href="SubmitFAQ.html"> <button type="button" class="btn btn-primary" style="margin-left: 10px;">Submit
+            FAQ page</button></a>
+        <a href="ContactUs.html"> <button type="button" class="btn btn-primary"
+            style="margin-left: 12px;">Contact Us</button></a>
+      </ul>
+
+    </div>
+  </nav>
+  <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
+  <main>
+
+<h1>Animal FAQ'S</h1>
+<div class="row">
+  <div class="collumnbottomleft"> <img src="../images/Animals/dog.jpg" alt="dod jumping"></div>
+  <div class="collumnbottomright" >
+    <button class="faqSlider"> How Often Should You Bathe a Dog?</button>
+    <div class="panel">
+      <div class="row">
+        <div class="collumnbottomleft"><img src="../images/Animals/bathe-dog.jpeg" alt="bathing a dog"></div>
+      </div>
+
+      <div class="collumnbottomright">
+        <p>"Unlike kitties, while dogs do lick themselves, they don’t truly self-bathe. And, unlike a pristine indoor
+          cat, your dog is much more likely to get dirty in the great outdoors (hello, mud puddle!). So you will need to
+          bathe your dog with some frequency to keep them clean and healthy.
+          How do you know when to bathe your dog? There are two times to bathe your dog: when he or she gets notably
+          dirty, such as after a swim in muddy water, and your regularly scheduled baths. How often you bathe your dog
+          depends on your dog’s breed. For example, hairless breeds need the most bathing, with hairless dogs needing a
+          bath once a week to keep their skin healthy. Furred dogs and long-haired dogs don’t need to be bathed as
+          often, as long as you are brushing your dog’s coat regularly. A good bath every 4-6 weeks should be enough to
+          keep their coat shiny and healthy.
+          "</p>
+          <a href="https://www.prudentpet.com/common-dog-questions/" class="underline"> ~ www.prudentpet.com/common-dog-questions</a>
+      </div>
+    </div>
+    
+    <button class="faqSlider">Is my pet too fat?</button>
+    <div class="panel" style="height:400px;">
+      <div class="row">
+        <div class="collumnbottomleft"><img src="../images/Animals/chart.webp" alt="bathing a dog"></div>
+      </div>
+
+      <div class="collumnbottomright">
+        <p>"Though pets are very adorable when pudgy; they, like humans, are actually in danger of many health problems if not helped out with a diet plan. To tell if your pet is a little too overweight for his health, compare your pet’s looks to the chart[to the left]! 
+          Called “Body Condition Scores,” charts like this one are believed by many to be the best way to tell if your animal is in good condition weight-wise.
+          "</p>
+          <a href="https://shallowfordvet.com/answers-commonly-googled-pet-questions/" class="underline"> ~ shallowfordvet.com/answers-commonly-googled-pet-questions</a>
+      </div>
+    </div>
+    
+    <button class="faqSlider"> How Often Should You Bathe a Dog?</button>
+    <div class="panel">
+      <div class="row">
+        <div class="collumnbottomleft"><img src="../images/Animals/bathe-dog.jpeg" alt="bathing a dog"></div>
+      </div>
+
+      <div class="collumnbottomright">
+        <p>"Unlike kitties, while dogs do lick themselves, they don’t truly self-bathe. And, unlike a pristine indoor
+          cat, your dog is much more likely to get dirty in the great outdoors (hello, mud puddle!). So you will need to
+          bathe your dog with some frequency to keep them clean and healthy.
+          How do you know when to bathe your dog? There are two times to bathe your dog: when he or she gets notably
+          dirty, such as after a swim in muddy water, and your regularly scheduled baths. How often you bathe your dog
+          depends on your dog’s breed. For example, hairless breeds need the most bathing, with hairless dogs needing a
+          bath once a week to keep their skin healthy. Furred dogs and long-haired dogs don’t need to be bathed as
+          often, as long as you are brushing your dog’s coat regularly. A good bath every 4-6 weeks should be enough to
+          keep their coat shiny and healthy.
+          "</p>
+          <a href="https://www.prudentpet.com/common-dog-questions/" class="underline"> ~ www.prudentpet.com/common-dog-questions</a>
+      </div>
+    </div>
+
+    <button class="faqSlider"> How often should my pet get exercise?</button>
+    <div class="panel">
+      <div class="row">
+        <div class="collumnbottomleft"><img src="../images/Animals/dog.jpg" alt="a dog running"></div>
+       
+      </div>
+
+      <div class="collumnbottomright">
+        <p>"Ask your vet how much exercise your pet should get routinely. The answer often depends on your pet’s age, breed, and general health. 
+          Your vet can also help you decide what type of activities are best. While puppies and adult dogs may benefit from a walk or run, kittens and cats can usually get the exercise they need with toys that prompt fun and active play.
+          "</p>
+          <a href="https://metrovetclinic.com/resources/questions-to-ask-a-veterinarian/" class="underline"> ~ metrovetclinic.com/resources/questions-to-ask-a-veterinarian/</a>
+          <br>Image by <a href="https://pixabay.com/users/birdvisual-43082041/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8692423">Brian Bird</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8692423">Pixabay</a>
+      </div>
+    </div>
+
+    
+    <button class="faqSlider"> How Often Should You Bathe a Dog?</button>
+    <div class="panel">
+      <div class="row">
+        <div class="collumnbottomleft"><img src="../images/Animals/bathe-dog.jpeg" alt="bathing a dog"></div>
+      </div>
+
+      <div class="collumnbottomright">
+        <p>"Unlike kitties, while dogs do lick themselves, they don’t truly self-bathe. And, unlike a pristine indoor
+          cat, your dog is much more likely to get dirty in the great outdoors (hello, mud puddle!). So you will need to
+          bathe your dog with some frequency to keep them clean and healthy.
+          How do you know when to bathe your dog? There are two times to bathe your dog: when he or she gets notably
+          dirty, such as after a swim in muddy water, and your regularly scheduled baths. How often you bathe your dog
+          depends on your dog’s breed. For example, hairless breeds need the most bathing, with hairless dogs needing a
+          bath once a week to keep their skin healthy. Furred dogs and long-haired dogs don’t need to be bathed as
+          often, as long as you are brushing your dog’s coat regularly. A good bath every 4-6 weeks should be enough to
+          keep their coat shiny and healthy.
+          "</p>
+          <a href="https://www.prudentpet.com/common-dog-questions/" class="underline"> ~ www.prudentpet.com/common-dog-questions</a>
+      </div>
+    </div>
+    
+    </div>
+</div>
+
+<div class="formcontainer">
+  <h1>Want to ask a animal question?</h1> <br>
+<form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+  <div>
+      <div><label for="name">Name:</label><input type="text" id="name" name="name" class="contactform"
+              placeholder="Jhon Doe" required></div>
+  </div>
+  <div><label for="email">Email(optional):</label><input type="email" id="email" name="email" class="contactform"
+          placeholder="abc@abc.com">
+  </div>
+  <div><label for="Question">Question:</label><input type="text" id="Question" name="Question" class="contactform"
+    placeholder="Type your question here" required>
+</div>
+
+  <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact"
+          name="Preferedcontact">
+          <option value="Email me">Email me</option>
+          <option value="pre">Stay anonymous</option>
+
+
+
+      </select>
+  </div>
+
+  <div><label for="textarea">Description to your question if you have the anwser or what your question is regarding</label><textarea id="textarea" class="contactform"
+          name="textarea"></textarea>
+  </div>
+
+  <label for="submit">Submit your question!</label>
+  <div><input type="submit" id="submit" class="contactform"></div>
+</div>
+</form>
+</div>
+
+    <script src="../Pages/js/faqslider.js"></script>
+  </main>
+
+  <!-- This is the footer section -->
+  <footer>
+    <p>
+      Copyright &copy; 2024 World Of Questions <br>
+      <a href="mailto: info@woq.com">info@woq.com</a>
+    <p id="date" class="footerDate"></p>
+    <script> const d = new Date(); document.getElementById("date").innerHTML = d; </script>
+    </p>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../Pages/js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../Pages/js/popper.min.js"></script>
+  <script src="../Pages/js/bootstrap-4.4.1.js"></script>
 
 </body>
 
 </html>
-
-
-
-
-
-
