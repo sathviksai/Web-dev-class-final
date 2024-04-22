@@ -444,10 +444,79 @@ header logo based on the viewport size */
  
 }
 
+ /* This is the media section which fixes based on the viewport for the menue bar*/
+
+@media only all and (min-width: 993px) {
+
+    /* This is the  margin for the home button */
+    .homebtn{
+        margin: auto;
+    }
+   /* This is the  margin for the animal button */
+    .animalbtn{
+        margin-left: 5px;
+    }
+
+   /* This is the  margin for the space button */
+    .spacebtn{
+        margin-left: 8px;
+    }
+
+   /* This is the  margin for the submit faq button */
+    .submitfaqbtn{
+        margin-left: 10px;
+    }
+
+   /* This is the  margin for the contact button */
+    .contactbtn{
+        margin-left: 12px;
+    }
+}
+
+/* This is the media section which fixes based on the viewport for the menu bar*/
+
+@media only all and (max-width: 991px){
+/* This is for the home button */
+    .homebtn{  width: 150px;}
+
+/* This is the for the animal button */
+    .animalbtn{
+        margin-top: -100px;
+        width: 150px;
+    }
+
+/* This is for the space button */
+    .spacebtn{
+        margin-top: -200px;
+        width: 150px;
+    }
+
+/* This is the for the submit faq button */
+    .submitfaqbtn{
+        margin-top: -300px;
+        width: 150px;
+    }
+
+/* This is the for the contact button */
+    .contactbtn{
+        margin-top: -400px;
+        width: 150px;
+    }
+
+/* This is the  margin for the nav bar */
+    .navmargin{margin-bottom: -150px; 
+     align-items: center;}
+}
+
+/* This is the media section which fixes based on the viewport */
 
 @media only all and (min-width: 758px) {
 
+
+
     .navbarcol{background-color: #ff6f69 !important;}
+
+    /* This is the  for the the main background color */
     main{background-color: #69d2ff !important;}
 
     /* This is the header section of the media section that changes the
