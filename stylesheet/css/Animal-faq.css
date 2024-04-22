@@ -12,12 +12,12 @@
         transition: 0.4s;
       }
       
-      .active, .accordion:hover {
+      .active, .faqSlider:hover {
         background-color: #ccc;
       }
       
-      .accordion:after {
-        content: '';
+      .faqSlider:after {
+        content: '\002B';
         color: #100;
         font-weight: bold;
         float: right;
@@ -26,6 +26,7 @@
       
       .active:after {
         content: "";
+        
       }
       
       .panel {
