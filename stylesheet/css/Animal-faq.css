@@ -150,6 +150,17 @@ a.underline {
 
 @media only all and (min-width: 650px) {
 
+  .formcontainer{
+    margin-left: 100px;
+    background-color: #ffbe4e;
+    margin-right: 100px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+  }
+
   /* This is the css for the form feilds */
   input[type=text],
   input[type=email],
@@ -163,12 +174,14 @@ a.underline {
     border: 1px solid #ffcc5c;
     border-radius: 4px;
     box-sizing: border-box;
+   margin: auto;
+   
   }
 
 
   /* This is the css for the form submit button */
   input[type=submit] {
-    width: 70%;
+    width: 73%;
     background-color: #ffcc5c;
     color: white;
     padding: 14px 20px;
@@ -176,6 +189,7 @@ a.underline {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
   }
 
 
