@@ -151,13 +151,13 @@ a.underline {
 @media only all and (min-width: 650px) {
 
   .formcontainer{
-    margin-left: 100px;
+    margin-left: 10.5vh;
     background-color: #ffbe4e;
     margin-right: 100px;
-    border-radius: 20px;
+    border-radius: 2.5vh;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
    
   }
 
@@ -167,7 +167,7 @@ a.underline {
   input[type=text],
   select,
   textarea {
-    width: 1050px;
+    width: 80vh;
     padding: 12px 20px;
     margin: 8px 0;
     display: block;
@@ -181,7 +181,7 @@ a.underline {
 
   /* This is the css for the form submit button */
   input[type=submit] {
-    width: 73%;
+    width: 50vh;
     background-color: #ffcc5c;
     color: white;
     padding: 14px 20px;
