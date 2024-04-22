@@ -197,7 +197,7 @@ div.container {
 
 
 /* This is the media section which fixes based on the viewport */
-@media only all and (max-width: 388px) {
+@media only all and (max-width: 530px) {
     /* This is the body section of the media section that changes the
    color and text based on the viewport size */
     body {
