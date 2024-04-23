@@ -1,0 +1,230 @@
+h1 {
+  text-align: center;
+}
+
+
+
+main {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* This is the css for the faq slider */
+.faqSlider {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+/* This is the css for the faq slider when hovered and active*/
+.active,
+.faqSlider:hover {
+  background-color: #ccc;
+}
+
+/* This is the css for the faq slider after its clicked*/
+.faqSlider:after {
+  content: '\002B';
+  color: #100;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "";
+
+}
+
+/* This is the css for the faq panel */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+a.underline {
+  text-decoration: underline;
+}
+
+
+
+@media only all and (max-width: 530px) {
+/* This is the css for the form feilds */
+input[type=text],
+input[type=email],
+input[type=text],
+select,
+textarea {
+  width: 50vh;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ffcc5c;
+  border-radius: 4px;
+  box-sizing: border-box;
+ margin: auto;
+ 
+}
+
+
+/* This is the css for the form submit button */
+input[type=submit] {
+  width: 30vh;
+  background-color: #ffcc5c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+
+/* This is the css for the form submit button when hoverd on */
+
+input[type=submit]:hover {
+  background-color: green;
+}
+
+
+/* This is the css for the form feilds container which holds the feilds */
+
+div.formcontainer {
+  
+  background-color: #ffbe4e;
+
+
+  text-align: center;
+
+
+  padding: 20px;
+
+}
+
+}
+
+
+@media only all and (min-width: 540px) {
+
+ /* This is the css for the form feilds */
+ input[type=text],
+ input[type=email],
+ input[type=text],
+ select,
+ textarea {
+   width: 50vh;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: block;
+   border: 1px solid #ffcc5c;
+   border-radius: 4px;
+   box-sizing: border-box;
+  margin: auto;
+  
+ }
+
+
+ /* This is the css for the form submit button */
+ input[type=submit] {
+   width: 30vh;
+   background-color: #ffcc5c;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+   
+ }
+
+
+ /* This is the css for the form submit button when hoverd on */
+
+ input[type=submit]:hover {
+   background-color: green;
+ }
+
+
+ /* This is the css for the form feilds container which holds the feilds */
+
+ div.formcontainer {
+   margin-left: 10.5vh;
+   background-color: #ffbe4e;
+   margin-right: 10.5vh;
+   border-radius: 2.5vh;
+   text-align: center;
+   margin-top: 2.5vh;
+   margin-bottom: 2.5vh;
+   padding: 20px;
+
+ }
+}
+
+@media only all and (min-width: 758px) {
+ 
+
+  /* This is the css for the form feilds */
+  input[type=text],
+  input[type=email],
+  input[type=text],
+  select,
+  textarea {
+    width: 80vh;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ffcc5c;
+    border-radius: 4px;
+    box-sizing: border-box;
+   margin: auto;
+   
+  }
+
+
+  /* This is the css for the form submit button */
+  input[type=submit] {
+    width: 50vh;
+    background-color: #ffcc5c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+
+
+  /* This is the css for the form submit button when hoverd on */
+
+  input[type=submit]:hover {
+    background-color: green;
+  }
+
+
+  /* This is the css for the form feilds container which holds the feilds */
+
+  div.formcontainer {
+    margin-left: 10.5vh;
+    background-color: #ffbe4e;
+    margin-right: 10.5vh;
+    border-radius: 2.5vh;
+    text-align: center;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    padding: 20px;
+
+  }
+  
+}
