@@ -50,9 +50,9 @@
     <!-- This is a header labeling the contact page -->
     <h1>Contact us!</h1>
     <!-- This is the image of the dog-->
-    <p style="text-align: center;">This is how you can reach us with your questions or suggestions.<br> Feel free to
+    <p style="text-align: center;">This is how you can reach us with your questions or suggestions. Feel free to
       drop your email and questions below.
-      Feel free to call our number below if you have any urgent questions. We look forward to hearing from you!</p>
+      Feel free to call our number below if you have any urgent questions.<br> We look forward to hearing from you!</p>
 
     <!-- This is the div container for the form -->
     <div class="formcontainer">
@@ -61,22 +61,18 @@
           <div><label for="name">Name:</label><input type="text" id="name" name="name" class="contactform"
               placeholder="Jhon Doe" required></div>
         </div>
-        <div><label for="email">Email(optional):</label><input type="email" id="email" name="email" class="contactform"
+        <div><label for="email">Email:</label><input type="email" id="email" name="email" class="contactform"
             placeholder="abc@abc.com" required>
         </div>
-        <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel" placeholder="123-456-7890">
+        <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel" placeholder="123-456-7890" required>
         </div>
 
 
         <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact" name="Preferedcontact">
-            <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
+            <option value="Phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
             <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
             <option value="Email me">Email me</option>
-            <option value="pre">Stay anonymous</option>
-
-
-
-          </select>
+             </select>
         </div>
 
         <div><label for="textarea">Question or Concern?</label><textarea id="textarea" name="textarea"
