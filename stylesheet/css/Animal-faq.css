@@ -172,6 +172,8 @@ div.formcontainer {
 }
 
 @media only all and (min-width: 758px) {
+ /* This is the panel height for the faq slider */
+  .panel-height{height: 200px;}
  
 
   /* This is the css for the form feilds */
