@@ -61,6 +61,15 @@ a.underline {
 /* This is the media section which fixes based on the viewport */
 @media only all and (max-width: 530px) {
 
+   /* This is the FAQ slider for the smaller screen */
+   .faqSlider:after {
+    margin-right: 50px;
+    content: '\002B';
+    color: #100;
+    font-weight: bold;
+    float: left;
+   
+  }
   /* This is the css for the form feilds */
   input[type=text],
   input[type=email],
