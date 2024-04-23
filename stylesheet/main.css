@@ -309,10 +309,32 @@ header logo based on the viewport size */
      align-items: center;}
 }
 
+/* This is the media section which fixes the video based on the viewport */
+@media only all and (min-width: 999px) { /* This is for the intro video */
+    iframe {
+        margin-left: 250px !important;
+        border: none !important;
+        width: 900px !important;
+        height: 400px !important;
+        margin-top: 15px !important;
+    }
+}
+
+
 /* This is the media section which fixes based on the viewport */
 
 @media only all and (min-width: 758px) {
+    iframe {
+        margin-left: -66px ;
+        border: none !important;
+        width: 900px !important;
+        height: 400px !important;
+        margin-top: 15px !important;
+    }
 
+    .CreditPostion {
+        margin-left: 293px;
+    }
 
 
     .navbarcol{background-color: #ff6f69 !important;}
@@ -381,15 +403,7 @@ header logo based on the viewport size */
 
    
 
-    /* This is for the intro video */
-    iframe {
-        margin-left: 250px;
-        border: none;
-        width: 900px;
-        height: 400px;
-        margin-top: 15px;
-    }
-
+   
     /* This is class for the credit caption of the dog high-five video */
     .CreditPostion {
         margin-left: 580px;
