@@ -6,7 +6,7 @@
   <!-- This is the links to the css file -->
   <link href="../stylesheet/css/bootstrap-4.4.1.css" rel="stylesheet">
   <link rel="stylesheet" href="../stylesheet/main.css">
-  <link rel="stylesheet" href="../stylesheet/css/Submitfaq.css">
+  <link rel="stylesheet" href="../stylesheet/css/ContactUs.css">
   <!-- This is the title that displays on the website banner -->
   <title>World Of Questions</title>
   <!-- This is the charset-->
@@ -21,11 +21,11 @@
 <!-- This is the body which all the contents of the webpage-->
 
 <body onload="welcomeMessage()">
-  
 
-    <!-- This is the contianer which holds the nav bar and main section together -->
-   
-     <!-- This is the nav bar which holds the page options -->
+
+  <!-- This is the contianer which holds the nav bar and main section together -->
+
+  <!-- This is the nav bar which holds the page options -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="Navbartheme">
     <a class="navbar-brand" href="#"> <img src="../images/World of questions.png" alt="World-of-questions-logo"
         class="logo"></a>
@@ -47,74 +47,70 @@
 
     </div>
   </nav>
-        <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
-        <main>
-          <!-- This is a header labeling the contact page -->
-          <h1>Contact us!</h1>
-          <!-- This is the image of the dog-->
-          <p style="text-align: center;">This is how you can reach us with your questions or suggestions.<br> Feel free to drop your email and questions below.
-              Feel free to call our number below if you have any urgent questions. We look forward to hearing from you!</p>
-       
-            <!-- This is the div container for the form -->
-            <div class="formcontainer">
-            <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
-              <div>
-                  <div><label for="name">Name:</label><input type="text" id="name" name="name" class="contactform"
-                          placeholder="Jhon Doe" required></div>
-              </div>
-              <div><label for="email">Email(optional):</label><input type="email" id="email" name="email" class="contactform"
-                      placeholder="abc@abc.com" required>
-              </div>
-              <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel"
-                placeholder="123-456-7890">
+  <!-- This is the main section of the webpage that hold mian poritons of the webpage -->
+  <main>
+    <!-- This is a header labeling the contact page -->
+    <h1>Contact us!</h1>
+    <!-- This is the image of the dog-->
+    <p style="text-align: center;">This is how you can reach us with your questions or suggestions.<br> Feel free to
+      drop your email and questions below.
+      Feel free to call our number below if you have any urgent questions. We look forward to hearing from you!</p>
+
+    <!-- This is the div container for the form -->
+    <div class="formcontainer">
+      <form action="https://webdevbasics.net/scripts/demo.php" method="POST">
+        <div>
+          <div><label for="name">Name:</label><input type="text" id="name" name="name" class="contactform"
+              placeholder="Jhon Doe" required></div>
         </div>
-            
-            
-              <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact"
-                      name="Preferedcontact">
-                      <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
-                      <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
-                      <option value="Email me">Email me</option>
-                      <option value="pre">Stay anonymous</option>
-            
-            
-            
-                  </select>
-              </div>
-             
-              <div><label for="textarea">Question or Concern?</label><textarea id="textarea"
-                name="textarea" required></textarea>
+        <div><label for="email">Email(optional):</label><input type="email" id="email" name="email" class="contactform"
+            placeholder="abc@abc.com" required>
         </div>
-            
-              <label for="submit">Submit your question!</label>
-              <div><input type="submit" id="submit" class="contactform"></div>
-            </form>
-            </div>
+        <div><label for="tel">Phone number:</label><input type="tel" id="tel" name="tel" placeholder="123-456-7890">
+        </div>
+
+
+        <div><label for="Preferedcontact">Prefered contact:</label><select id="Preferedcontact" name="Preferedcontact">
+            <option value="phone me between 1pm to 4pm">phone me between 1pm to 4pm</option>
+            <option value="Phone me between 6pm to 9pm to 4pm">Phone me between 6pm to 9pm</option>
+            <option value="Email me">Email me</option>
+            <option value="pre">Stay anonymous</option>
 
 
 
-   
-    <!-- This is the footer section -->
-    <footer>
-        <p>
-            Copyright &copy; 2024 World Of Questions <br>
-            <a href="mailto: info@woq.com">info@woq.com</a>
-            <p id="date" class="footerDate"></p>
-            <script> const d = new Date(); document.getElementById("date").innerHTML = d; </script>
-        </p>
-    </footer>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
-        <script src="../Pages/js/jquery-3.4.1.min.js"></script> 
-        <!-- Include all compiled plugins (below), or include individual files as needed --> 
-        <script src="../Pages/js/popper.min.js"></script> 
-        <script src="../Pages/js/bootstrap-4.4.1.js"></script>
+          </select>
+        </div>
+
+        <div><label for="textarea">Question or Concern?</label><textarea id="textarea" name="textarea"
+            required></textarea>
+        </div>
+
+        <label for="submit">Submit your question!</label>
+        <div><input type="submit" id="submit" class="contactform"></div>
+      </form>
+    </div>
+
+
+
+    <!-- This the faq slider script-->
+    <script src="../Pages/js/faqslider.js"></script>
+  </main>
+
+  <!-- This is the footer section -->
+  <footer>
+    <p>
+      Copyright &copy; 2024 World Of Questions <br>
+      <a href="mailto: info@woq.com">info@woq.com</a>
+    <p id="date" class="footerDate"></p>
+    <script> const d = new Date(); document.getElementById("date").innerHTML = d; </script>
+    </p>
+  </footer>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="../Pages/js/jquery-3.4.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="../Pages/js/popper.min.js"></script>
+  <script src="../Pages/js/bootstrap-4.4.1.js"></script>
 
 </body>
 
 </html>
-
-
-
-
-
-

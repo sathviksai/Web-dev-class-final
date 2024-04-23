@@ -519,13 +519,6 @@ header logo based on the viewport size */
     /* This is the  for the the main background color */
     main{background-color: #69d2ff !important;}
 
-    /* This is the header section of the media section that changes the
-   header logo based on the viewport size */
-    header {
-        background-color: #ff6f69;
-        background-image: url(../images/LogoLarge.png);
-        min-height: 100px;
-    }
 
     /* This is the style for the navigation bar links*/
 
@@ -565,20 +558,9 @@ header logo based on the viewport size */
         text-align: center;
     }
 
-    /* This is the styling for the elements in the aside tag on the biggerscreen */
-    aside {
-        border-style: groove;
-        border-radius: 25px;
-        background-color: aqua;
-        padding: 10px
-    }
+   
 
-    /* This is class for the theme for the div list  on the biggerscreen */
-    .divlistclass {
-        background-color: bisque;
-        padding: 10px;
-
-    }
+ 
 
     .row:after {
         content: "";
@@ -597,7 +579,7 @@ header logo based on the viewport size */
 
 
 
-    /* This is class for the collum on the top right in classes*/
+    /* This is class for the collum on the top right*/
     .collumntopright {
         float: right;
         height: 205px;
@@ -608,8 +590,7 @@ header logo based on the viewport size */
     }
 
 
-    /* This is class for the collum on the bottom
- left in classes*/
+    /* This is class for the collum utlized for the faq  */
 
     .collumnbottomleft {
         float: left;
@@ -617,7 +598,7 @@ header logo based on the viewport size */
         width: 25%;
     }
 
-    /* This is class for the collum on the bottom right in classes*/
+  /* This is class for the collum utlized for the faq  */
     .collumnbottomright {
         float: right;
         height: fit-content;
@@ -625,69 +606,11 @@ header logo based on the viewport size */
     }
 
 
-    figure {
-        width: 150px;
-    }
+    
 
+   
 
-    /* This is class for the grid-container on the graduates page*/
-    .grid-Container {
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto;
-        gap: 10px;
-
-
-    }
-
-    /* This is class for the grid-title on the graduates page*/
-
-    .gridTitle {
-        grid-row: 1;
-        grid-column: 3;
-        text-align: end;
-    }
-
-    /* Below are the various classes for the images for the grids this includes the sqaure,long and wide images*/
-
-    .wideImg {
-        grid-area: 2/1/2/7;
-    }
-
-
-    .longImg {
-        grid-area: 3/1/4/3;
-    }
-
-    .regImg1 {
-        grid-area: 3/3/4/7;
-
-    }
-
-    .regImg2 {
-
-        grid-area: 4/3/5/7;
-
-    }
-
-    .regImg3 {
-        grid-area: 4/1/5/3;
-
-    }
-
-    .regImg4 {
-
-        grid-area: 5/3/6/7;
-
-    }
-
-
-    .regImg5 {
-
-        grid-area: 5/1/6/3;
-
-    }
-
-    /* This is class for the for dog high-five video */
+    /* This is for the intro video */
     iframe {
         margin-left: 250px;
         border: none;
