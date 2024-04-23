@@ -1,12 +1,13 @@
-/* This is the body section with elements controlling the color and
-font of the body section. The color pallette choosen best suit with the overall mood of the website, it has light tone to fit with  */
+/* this for the logo of the website  */
 .logo{ width: 100px; height: 90px;
 
 }
 
 
-
+/* this for alging the text center */
 .textalign-center{text-align: center;}
+
+/* this for the body */
 body {
     background-color: #ff6f69 ; 
     color: #F4FFFD ;
@@ -31,35 +32,6 @@ body {
 }
 
 
-
-/* This is the styling for the elements in the aside tag */
-aside {
-    background-color: aqua;
-    padding: 5px
-}
-
-
-/* This is the styling for the elements in the section tag */
-section {
-    font-family: 'Courier New', Courier;
-}
-
-
-/* This is the styling for the figuers*/
-figure img {
-
-    border-radius: 120px;
-
-
-}
-
-/* This is the styling for the figure captions*/
-figcaption {
-    align-items: center;
-    font-weight: bold;
-}
-
-
 /* This is the id theme for the header1 tag */
 #Navbartheme{
     font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -75,37 +47,6 @@ figcaption {
 
 
 
-/* This is the font size of the nav bar and the colors based on the action in the nav bar*/
-nav {
-    font-size: 1.5em;
-}
-
-a:link {
-    color: #612700;
-}
-
-a:visited {
-    color: black;
-}
-
-a:hover {
-    color: #FF9A57;
-}
-
-
-/* This is class for the theme for the div list */
-.divlistclass {
-    background-color: bisque;
-    padding: 4px;
-}
-
-/* This is class for the style of the div employees section with the figures and list */
-.divemployeesection {
-    background-color: #fbefcc;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
 /* This is the main section with the background and text color for the
  main part of the page */
 main {
@@ -115,25 +56,13 @@ main {
 
 }
 
-/* This is the font weight of the dt list term*/
-dt {
-    font-weight: bold;
-}
-
-
 /* This is for the change in image size based on oreatation of screen */
 img {
     max-width: 100%;
     height: auto;
 }
 
-
-/* This is the header section with the attributes for the image */
-header {
-    background-position: right;
-    background-repeat: no-repeat;
-}
-
+/* this for the footer of the website, keeping it algined  */
 footer {
     text-align: center;
 }
@@ -205,50 +134,9 @@ div.container {
         color: #F4FFFD ;
         font-family: "serif Georgia" ;
     }
-
-    /* This is the header section of the media section that changes the
-header logo based on the viewport size */
-    header {
-        background-color: #ffcc5c;
-        color: #F4FFFD;
-        background-image: url(../images/LogoSmall.png);
-        min-height: 50px;
-
-    }
-
-
-    /* This is the alignment of the text for header sections of the classes page */
-
-    .h2classespage {
-        text-align: center;
-    }
-
+/* this for the body color of the website  */
     body {
         background-color: #ff6f69;
-    }
-
-    figure {
-        width: 80px;
-    }
-
-
-
-    /* This is the styling for the elements in the nav-bar */
-
-    ul.a {
-        list-style-type: none;
-    }
-
-
-
-    li a {
-
-
-        display: block;
-        margin: 5px;
-        width: 100px;
-        background-color: beige;
-        text-align: center;
     }
 
     /* This is the style for the navigation bar buttons*/
@@ -263,24 +151,7 @@ header logo based on the viewport size */
 
     }
 
-    /* This is the style for the navigation bar container*/
-
-    .navcontainer {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    /* This is the style for the navigation bar and main container*/
-
-    .navmaincontainer {
-        display: flex;
-
-
-
-
-    }
-
+    /* this for the main section of the website  */
     main {
         height: 100vh;
         overflow: scroll;
@@ -289,21 +160,7 @@ header logo based on the viewport size */
 
 
 
-    /* This is the styling for the elements in the aside tag on the smaller-screen */
-    aside {
-        border-style: groove;
-        border-radius: 25px;
-        background-color: aqua;
-        padding: 1px
-    }
-
-    /* This is class for the theme for the div list  on the smaller-screen */
-    .divlistclass {
-        background-color: bisque;
-        padding: 1px;
-    }
-
-    /* This is class for the for dog high-five video */
+    /* This is for the video */
     iframe {
        margin-left:-10px;
         border: none;
@@ -312,7 +169,7 @@ header logo based on the viewport size */
         height: 300px;
     }
 
-    /* This is class for the credit caption of the dog high-five video */
+    /* This is class for the credit caption */
     .CreditPostion {
         margin-left: 150px;
     }
@@ -342,39 +199,13 @@ header logo based on the viewport size */
     }
 
 
-    /* This is the alignment of the text for header sections of the classes page */
-
-    .h2classespage {
-        text-align: center;
-    }
+  
 
     body {
         background-color: #ff6f69;
     }
 
-    figure {
-        width: 80px;
-    }
 
-
-
-    /* This is the styling for the elements in the nav-bar */
-
-    ul.a {
-        list-style-type: none;
-    }
-
-
-
-    li a {
-
-
-        display: block;
-        margin: 5px;
-        width: 100px;
-        background-color: beige;
-        text-align: center;
-    }
 
     /* This is the style for the navigation bar buttons*/
     .navbuttonstyle {
@@ -388,23 +219,7 @@ header logo based on the viewport size */
 
     }
 
-    /* This is the style for the navigation bar container*/
 
-    .navcontainer {
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    /* This is the style for the navigation bar and main container*/
-
-    .navmaincontainer {
-        display: flex;
-
-
-
-
-    }
 
     main {
         height: 100vh;
@@ -413,21 +228,7 @@ header logo based on the viewport size */
 
 
 
-    /* This is the styling for the elements in the aside tag on the smaller-screen */
-    aside {
-        border-style: groove;
-        border-radius: 25px;
-        background-color: aqua;
-        padding: 1px
-    }
-
-    /* This is class for the theme for the div list  on the smaller-screen */
-    .divlistclass {
-        background-color: bisque;
-        padding: 1px;
-    }
-
-    /* This is class for the for dog high-five video */
+    /* This is class for the video */
     iframe {
         margin-left: 80px;
         border: none;
@@ -436,7 +237,7 @@ header logo based on the viewport size */
         height: 300px;
     }
 
-    /* This is class for the credit caption of the dog high-five video */
+    /* This is class for the credit caption of the video */
     .CreditPostion {
         margin-left: 190px;
     }
@@ -520,16 +321,7 @@ header logo based on the viewport size */
     main{background-color: #69d2ff !important;}
 
 
-    /* This is the style for the navigation bar links*/
-
-    li a {
-
-        display: block;
-        margin: 3px;
-        text-align: center;
-        background-color: aqua;
-        width: 90px;
-    }
+  
 
     /* This is the style for the navigation bar buttons*/
     .navbuttonstyle {
@@ -541,35 +333,14 @@ header logo based on the viewport size */
 
     }
 
-    /* This is the style for the navigation bar container*/
-    .navcontainer {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-    }
-
-    /* This is the style for the navigation bar and main container*/
-    .navmaincontainer {
-
-        display: flex;
-    }
-
-    .h2classespage {
-        text-align: center;
-    }
-
-   
-
- 
-
-    .row:after {
+   .row:after {
         content: "";
         display: table;
         clear: both;
     }
 
 
-    /* This is class for the collum on the top left in classes*/
+    /* This is class for the collum on the top left*/
     .collumntopleft {
         float: left;
         height: 15px;
